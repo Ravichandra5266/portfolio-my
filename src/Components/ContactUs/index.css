@@ -1,0 +1,24 @@
+.contact-title {
+  text-align: center;
+  font-style: italic;
+}
+.contact-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icons {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-size: 22px;
+}
+.contact-icons:hover {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-icons {
+    font-size: 32px;
+  }
+}

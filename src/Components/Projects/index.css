@@ -1,13 +1,12 @@
 .project {
-  background-image: linear-gradient(-225deg, #20e2d7 0%, #f9fea5 100%);
-  min-height: 100vh;
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
   padding-bottom: 50px;
+  min-height: 100vh;
 }
 .projects {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 10px;
 }
 @media screen and (min-width: 768px) {
   .projects {
@@ -17,37 +16,12 @@
     align-items: center;
   }
 }
-.major-projects {
-  border: 1px solid #ffa500;
-  border-radius: 5px;
-  margin: 5px;
-}
-.minor-projects {
-  border: 1px solid;
-  border-radius: 5px;
-  margin: 5px;
-}
-.major-projects-title {
-  text-align: center;
-  font-style: italic;
-  color: #ff4500;
-}
-.minor-projects-title {
-  text-align: center;
-  font-style: italic;
-  color: #ff4500;
-}
-
 .project-container {
   /* padding: 10px; */
-  border: 2px solid #ffa500;
+  border: 2px solid;
   border-radius: 5px;
   margin: 5px;
   color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .project-container {
@@ -74,16 +48,11 @@
     text-align: center;
   }
 } */
-.minor {
-  margin: 5px;
-  border: 2px solid #ffa500;
-  border-radius: 5px;
-}
+
 .jobby-img {
-  width: 340px;
+  width: 320px;
   height: 340px;
   border-radius: 10px;
-  padding: 5px;
 }
 @media screen and (min-width: 1200px) {
   .jobby-img {
@@ -111,25 +80,35 @@
     width: 40%;
   }
 } */
-.minar-btn {
-  height: 50px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  border-radius: 5px;
-  font-weight: bolder;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-}
-.minar-btn:hover {
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-  font-size: 22px;
-  font-weight: bolder;
-  font-style: italic;
-}
-.link-btn {
+.minor-btn-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 20px;
   text-decoration: none;
+}
+.minor-projects-btn {
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  height: 50px;
+  border: 1px solid transparent;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 15px;
+}
+.minor-projects-btn:hover {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+.major-project-title {
+  text-align: center;
+  /* color: #ff4500; */
+  color: white;
+  font-style: italic;
+  font-family: Lobster;
 }

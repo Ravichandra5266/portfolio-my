@@ -15,11 +15,11 @@ const ContactUs = () => (
       <a href="https://wa.me/7993091099">
         <BsWhatsapp className="contact-icons" />
       </a>
-      <a href="https://github.com/Ravichandra5266?tab=repositories">
+      <a href="https://github.com/Ravichandra5266">
         <BsGithub className="contact-icons" />
       </a>
       <a href="mailto:krc263458@gmail.com">
-        <SiGmail className="contact-icons" />{' '}
+        <SiGmail className="contact-icons" />
       </a>
     </div>
   </>

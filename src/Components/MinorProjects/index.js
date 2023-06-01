@@ -14,94 +14,194 @@ const MinorProjects = () => {
     Aos.init()
   })
   return (
-    <div className="minor-container">
+    <div className="bg-container">
       <Navbar />
-      <div className="minor-projects">
-        <h1 className="major-projects-title">Minor Projects</h1>
-        <div className="projects">
-          <div data-aos="zoom-in-up" className="minor">
-            <a href="https://lnkd.in/e9K3C9yZ" className="link">
-              <h1 className="project-title">Match Game</h1>
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685543371/match-game-lg-output_vpzudv.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
+      <h1 className="minor-projects-title">Minor Projects</h1>
 
-          <div data-aos="zoom-in-up" className="minor">
-            <a href=" https://lnkd.in/gra-KT4P" className="link">
-              <h1 className="project-title">Ipl Dashboard</h1>
+      <div className="minor-cont">
+        <a
+          data-aos="zoom-in"
+          href="https://lnkd.in/e9K3C9yZ"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Match Game</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685600727/match-game-output_osdppc.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
 
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685543471/ipl-dashboard-team-matches-lg-output-v2_wuyqnz.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
-          <div data-aos="zoom-in-up" className="minor">
-            <a href=" https://lnkd.in/eJhTmy2m" className="link">
-              <h1 className="project-title">Coin Toss Game</h1>
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685543509/coin-toss-game-lg-output_qre1xp.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
-          <div data-aos="zoom-in-up" className="minor">
-            <a href="https://tnrjskrc.ccbp.tech" className="link">
-              <h1 className="project-title">Gallery Pic's </h1>
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685543446/gallery-lg-output_ebnqo9.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
-          <div data-aos="zoom-in-up" className="minor">
-            <a href="https://lnkd.in/edYBKPGc" className="link">
-              <h1 className="project-title">Fruits Game</h1>
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685543435/fruits-counter-lg-output_bhnemb.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
-          <div data-aos="zoom-in-up" className="minor">
-            <a href="http://wpjskrc.ccbp.tech" className="link">
-              <h1 className="project-title">Wikipedia Search </h1>
-              <img
-                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/wiki-logo-img.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
-          <div data-aos="zoom-in-up" className="minor">
-            <a href="https://lnkd.in/eHCi4VfK" className="link">
-              <h1 className="project-title">App Store </h1>
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685543408/app-store-lg-output-v2_aoqlxu.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
-          <div data-aos="zoom-in-up" className="minor">
-            <a href=" https://lnkd.in/dxnVUyAW" className="link">
-              <h1 className="project-title">Github Popular Repos</h1>
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685543387/github-repos-lg-success-output_f4x696.png"
-                alt="sample"
-                className="jobby-img"
-              />
-            </a>
-          </div>
-        </div>
+        <a
+          data-aos="zoom-in"
+          href=" https://lnkd.in/gra-KT4P"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Ipl Dashboard</h1>
+
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685600083/1670405385018_mfe2ct.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href=" https://lnkd.in/eJhTmy2m"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Coin Toss Game</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685600012/1670400998729_dzuyak.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="https://tnrjskrc.ccbp.tech"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Gallery Pic's </h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685600055/1670400594443_uqpvna.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="https://lnkd.in/edYBKPGc"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Fruits Game</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685599994/1670394429121_ng3lov.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="http://wpjskrc.ccbp.tech"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Wikipedia Search </h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685599979/1670385017249_hqjdxu.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="https://lnkd.in/eHCi4VfK"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">App Store </h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685599650/1670409066169_a0jwkf.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href=" https://lnkd.in/dxnVUyAW"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Github Popular Repo's</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685600008/1670407185015_e6abib.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href=" https://lnkd.in/gK3w6Hj7"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Gradient Generator</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685599532/1671780494114_g4wfki.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="https://lnkd.in/gz4Q5hDB"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Events</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685601405/1670407070176_ehmhsb.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href=" https://sfrjskrc.ccbp.tech"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Browser History</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685601215/1670400303794_w3lk4h.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href=" https://dsrjskrc.ccbp.tech"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Destination Places </h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685601073/1670399705569_csrypw.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="https://lnkd.in/eKdNT_Fa
+"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Books Search</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685600110/1670387827665_oszzdp.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="https://lnkd.in/ee4aRiTE"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Speed Type Test</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685601811/1670387726159_nyxaea.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
+        <a
+          data-aos="zoom-in"
+          href="https://lnkd.in/eR5vsJg2"
+          className=" minor-projects-container"
+        >
+          <h1 className="minor-project-title">Country & Population</h1>
+          <img
+            src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685602669/1670385144010_m34mxz.gif"
+            alt="sample"
+            className="minor-project-img"
+          />
+        </a>
       </div>
 
       <ContactUs />

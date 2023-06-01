@@ -19,8 +19,8 @@ const Navbar = () => {
   }
   return (
     <nav className="nav-container">
-      <div className="nav-flex">
-        <NavLink to="/" className="home-link" activeClassName="active" exact>
+      <div className="nav-flex ">
+        <NavLink to="/" className="link" activeClassName="active" exact>
           <h1 className="nav-logo">Portfolio</h1>
         </NavLink>
 

@@ -9,7 +9,8 @@ import {RxCrossCircled} from 'react-icons/rx'
 
 import {useState} from 'react'
 
-// import resumePDF from 'file:///C:/Users/krc26/my-app/public/Resume/Ravichandar%20Kadavakuti.pdf'
+import resumePDF from '../../Resume/Ravichandar Kadavakuti.pdf'
+
 const Navbar = () => {
   const [ham, setHam] = useState(false)
 
@@ -52,9 +53,9 @@ const Navbar = () => {
             <li className="nav-item">Certificates</li>
           </NavLink>
 
-          {/* <a className="link" download>
+          <a className="link" href={resumePDF} download>
             <li className="nav-item">Resume</li>
-          </a> */}
+          </a>
         </ul>
       ) : (
         ''
@@ -75,9 +76,9 @@ const Navbar = () => {
         >
           <li className="nav-item">Certificates</li>
         </NavLink>
-        {/* <a className="link" download>
+        <a className="link" href={resumePDF} download>
           <li className="nav-item">Resume</li>
-        </a> */}
+        </a>
       </ul>
     </nav>
   )

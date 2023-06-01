@@ -6,6 +6,8 @@
 .projects {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .projects {
@@ -15,12 +17,37 @@
     align-items: center;
   }
 }
+.major-projects {
+  border: 1px solid #ffa500;
+  border-radius: 5px;
+  margin: 5px;
+}
+.minor-projects {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+.major-projects-title {
+  text-align: center;
+  font-style: italic;
+  color: #ff4500;
+}
+.minor-projects-title {
+  text-align: center;
+  font-style: italic;
+  color: #ff4500;
+}
+
 .project-container {
   /* padding: 10px; */
-  border: 2px solid;
+  border: 2px solid #ffa500;
   border-radius: 5px;
   margin: 5px;
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .project-container {
@@ -47,11 +74,16 @@
     text-align: center;
   }
 } */
-
+.minor {
+  margin: 5px;
+  border: 2px solid #ffa500;
+  border-radius: 5px;
+}
 .jobby-img {
   width: 340px;
   height: 340px;
   border-radius: 10px;
+  padding: 5px;
 }
 @media screen and (min-width: 1200px) {
   .jobby-img {
@@ -79,3 +111,25 @@
     width: 40%;
   }
 } */
+.minar-btn {
+  height: 50px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.minar-btn:hover {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  font-size: 22px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.link-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  text-decoration: none;
+}

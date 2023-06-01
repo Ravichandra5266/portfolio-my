@@ -20,6 +20,10 @@ import './index.css'
 const Home = () => {
   const typedTextRef = useRef(null)
 
+  const onclickScroll = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'})
+  }
+
   useEffect(() => {
     const typed = new Typed(typedTextRef.current, {
       strings: ['Hi MySelf Ravichandra Kadavakuti', 'Im a Front-end Developer'],
@@ -119,7 +123,11 @@ const Home = () => {
             portfolio, and I look forward to hearing from you!
           </p>
           <Link to="/projects">
-            <button type="button" className="projects-btn">
+            <button
+              type="button"
+              className="projects-btn"
+              onClick={onclickScroll}
+            >
               Click on Me To Navigate Mini Projects
             </button>
           </Link>

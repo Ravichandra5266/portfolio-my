@@ -14,9 +14,11 @@ const Certificates = () => {
   useEffect(() => {
     Aos.init()
   })
+
   return (
     <div className="certificates-container">
       <Navbar />
+      <h1 className="certificates-title">Certificates</h1>
       <div className="ceritficate-flex">
         <a
           data-aos="zoom-in-down"

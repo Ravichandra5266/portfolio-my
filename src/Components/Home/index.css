@@ -1,6 +1,9 @@
+body {
+  overflow-x: hidden;
+}
 .home-container {
   width: 100%;
-  min-height: 107vh;
+  min-height: 100vh;
   background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
   padding-bottom: 4px;
 }
@@ -70,6 +73,7 @@
 .skill-title {
   text-align: center;
   font-style: italic;
+  animation: zoomInOut 2s infinite;
 }
 @media screen and (min-width: 768px) {
   .skill-title {
@@ -85,8 +89,23 @@
     text-align: center;
     font-style: italic;
     display: block;
+    animation: zoomInOut 5s infinite;
   }
 }
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .skill-list {
   display: flex;
   flex-direction: row;
@@ -138,7 +157,22 @@
   font-size: 18px;
   margin-right: 5px;
   color: #2e8b57;
+  animation: zoomInOut 5s infinite;
 }
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .skill-icons {
     font-size: 32px;

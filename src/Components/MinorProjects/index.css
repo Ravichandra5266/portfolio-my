@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .minor-cont {
@@ -25,6 +25,21 @@
   color: white;
   font-style: italic;
   font-family: Lobster;
+  animation: zoomInOut 2s infinite;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 .minor-projects-container {
   display: flex;

@@ -1,6 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+
 .project {
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
-  padding-bottom: 50px;
+  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+  padding-bottom: 100px;
   min-height: 100vh;
 }
 .projects {
@@ -111,4 +115,19 @@
   color: white;
   font-style: italic;
   font-family: Lobster;
+  animation: zoomInOut 2s infinite;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }

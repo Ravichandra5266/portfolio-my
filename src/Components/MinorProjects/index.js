@@ -13,6 +13,7 @@ const MinorProjects = () => {
   useEffect(() => {
     Aos.init()
   })
+
   return (
     <div className="bg-container">
       <Navbar />

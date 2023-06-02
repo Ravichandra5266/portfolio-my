@@ -67,6 +67,9 @@
   font-weight: bold;
   font-style: italic;
 }
+.nav-item:hover {
+  color: black;
+}
 .lg-nav-list {
   display: none;
 }
